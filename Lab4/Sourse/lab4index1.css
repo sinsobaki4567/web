@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h1,
+{
+	margin: 0;
+}
+
+header {
+	letter-spacing: 1px;
+	color: black;
+	background: #aaa033 ;
+}
+
+.start { 
+	display: flex;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.name_title {
+	align-items: center;  
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+section {
+	letter-spacing: 1px;
+	color: black;
+	background: #d6c5d0;
+}
+
+.middle {
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.task {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+}
+
+.size_text {
+	font-size: 23px;
+}
+
+.figure_2D {
+	/*Triangle Down*/
+	display: flex;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid #67692e;
+    transform: rotate(720deg);
+	transition: all 3s;
+	transition-timing-function:ease-out;
+}
+
+.name_2D {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 23px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+footer {
+	background: #aaa033 ;
+}
+
+.space5 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.icons {
+	display: flex;
+	width: 15%;
+	justify-content: space-between;
+}

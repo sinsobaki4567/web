@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h1,
+{
+	margin: 0;
+}
+
+header {
+	letter-spacing: 1px;
+	color: black;
+	background: #aaa033 ;
+}
+
+.start { 
+	display: flex;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.name_title {
+	align-items: center;  
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+section {
+	letter-spacing: 1px;
+	color: black;
+	background: #d6c5d0;
+}
+
+.middle {
+	font-size: 23px;
+	display: flex;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.task {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+footer {
+	background: #aaa033 ;
+}
+
+.space5 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.icons {
+	display: flex;
+	width: 15%;
+	justify-content: space-between;
+}

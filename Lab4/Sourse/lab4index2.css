@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h1,
+{
+	margin: 0;
+}
+
+header {
+	letter-spacing: 1px;
+	color: black;
+	background: #aaa033 ;
+}
+
+.start { 
+	display: flex;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.name_title {
+	align-items: center;  
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+section {
+	letter-spacing: 1px;
+	color: black;
+	background: #d6c5d0;
+}
+
+.middle {
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.task {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+}
+
+.size_text {
+	font-size: 23px;
+}
+
+.figure_3D {
+	/*Rectangle*/
+	display: flex;
+
+    width: 200px;
+    height: 200px;
+    background: #b85667;
+    transform: rotateZ(45deg);
+    transition: all 2s;
+	transition-timing-function:ease-in;
+}
+
+.name_3D {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 23px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+
+}
+
+
+footer {
+	background: #aaa033 ;
+}
+
+.space5 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.icons {
+	display: flex;
+	width: 15%;
+	justify-content: space-between;
+}

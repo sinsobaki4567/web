@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+.Table_API{
+  background-color: #d5eaf2;
+  margin: auto; /* Выравниваем таблицу по центру окна  */
+  -webkit-box-shadow: 27px 18px 36px -7px rgba(107,97,107,1);
+  -moz-box-shadow: 27px 18px 36px -7px rgba(107,97,107,1);
+  box-shadow: 27px 18px 36px -7px rgba(107,97,107,1);
+  text-align: center;
+}
+
+.name_columns{
+  color: #207ce5;
+  font-weight:bold ;
+  text-align: center;
+}
+
+.Time_count{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Time_current{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

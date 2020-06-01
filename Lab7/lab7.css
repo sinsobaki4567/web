@@ -1,0 +1,611 @@
+a {
+	text-decoration: none;
+}
+
+header{
+	background: url(Resourse_lab7/header/Image.png) no-repeat center top / cover;
+	height: auto;
+	
+	background-color: #017dfb;
+}
+
+
+.start_1{
+	padding-top: 40px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+
+}
+
+.top{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+}
+
+.menu a{
+	color: #afb5c6;
+	padding-right:30px;
+}
+
+.menu .color {
+	color: #017dfb;
+	padding-right:0px;
+	background:linear-gradient(to top,#ffffff ,#ffffff);
+	border:10px solid #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 0 50px lightblue;
+}
+
+p8{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+.start_2{
+	padding-top: 190px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.start_3{
+	padding-top: 45px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: #017dfb;
+}
+
+.start_4{
+	padding-top: 55px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-bottom: 210px;
+}
+
+.container .button_form{
+	color: #017dfb;
+	padding-right:0px;
+	background:linear-gradient(to top,#ffffff ,#ffffff);
+	border:10px solid #ffffff;
+	border-radius: 20px;
+}
+
+p9{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.blue_box{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.boxes{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+}
+
+.right_blue{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.check_in,
+.check_out,
+.rooms,
+.adults,
+.children,
+.stars,
+.search{
+	padding-right: 70px;
+}
+
+.city .color_white,
+.check_in .color_white,
+.check_out .color_white,
+.rooms .color_white,
+.adults .color_white,
+.children .color_white,
+.stars .color_white{
+	color: #ffffff;
+}
+
+.right_blue .sign_search{
+	background:linear-gradient(to top,#ffffff ,#ffffff);
+	border:10px solid #ffffff;
+	border-radius: 100%;
+}
+
+.blue_box{
+	pad-bottom: 20px;
+}
+
+/*-----------Form-------------*/
+
+.button_form{
+	color: #ffffff;  
+}
+
+.popup{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.popup_content{
+	height: 250px;
+	width: 500px;
+	background: #e7f0ed ;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+input{
+	margin: 20px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid grey;
+}
+
+.button_form_in{
+	background: #ffffff;
+	padding: 10px 15px;
+	color: #5e8acd;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 11px;
+	border-radius: 5px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 25px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+p14{
+	padding-right: 14px;
+	padding-left: 14px;
+	font-size: 11pt;
+}
+
+.button_form_in:hover{
+	background: #5e8acd;
+	color: #ffffff;
+}
+
+.close{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #ffffff;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+/*----------------------------------------------*/
+
+.places{
+	width: 100%;
+	padding-top: 80px;
+	background-color: #ffffff;
+	color: #afb5c6;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 80px;
+}
+
+.auto{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*---------Відступи-----------*/
+.thessaloniki{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.halkidiki{
+	margin-right: 30px;
+}
+
+.athens{
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.mykonos{
+	margin-left: 30px;
+	
+}
+/*----------------------------*/
+
+.meteora,
+.myrtos_beach{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.column_1,
+.column_2{
+	display: flex;
+	flex-direction: column;
+}
+
+.gallary_row_1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.gallary_row_1_inside{
+	display: flex;
+	justify-content: space-between;
+	width: 97%;
+	padding-bottom: 30px;
+}
+
+.gallary_row_2{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.gallary_row_2_inside{
+	display: flex;
+	justify-content: space-between;
+	width: 99%;
+}
+
+/*Написи поверх картинок*/
+.thessaloniki,
+.halkidiki,
+.athens,
+.mykonos,
+.meteora,
+.myrtos_beach{
+	display:inline-block;   
+    position:relative;
+}
+
+.thessaloniki .text,
+.halkidiki .text,
+.athens .text,
+.mykonos .text,
+.meteora .text,
+.myrtos_beach .text{
+	display: inline-block; 
+    position: absolute; 
+    bottom: 10px; left: 10px; 
+    padding: 5px 5px 5px 10px;
+    color: white;
+}
+
+.gallary_row_2{
+	padding-bottom: 30px;
+}
+
+.crete{
+	display:inline-block;   
+    position:relative;
+}
+
+.crete .text2{
+	display: inline-block; 
+    position: absolute;
+    bottom: 40%; left: 22%; 
+    text-align: center;
+    color: white;
+}
+
+.text_in_border .bord{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border:1.5px solid #5abcfd;
+	border-radius: 20px;
+}
+.text_in_border{
+	padding-top: 30px;
+}
+
+p4{
+	font-size: 41pt;
+}
+
+p3{
+	font-size: 17pt;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px grey;
+}
+
+p10{
+	padding-left: 15px;
+	font-size: 17pt;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px grey;
+}
+
+
+.hotels{
+	
+	
+	color: #afb5c6;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+}
+
+.hotels_widht{
+	background-color: #f9f9f9;
+	display: flex;
+	width: 97%;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.rewiews_row_out_1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.rewiews_row_1{
+	display: flex;
+	width: 97%;
+	justify-content: center;
+	padding-bottom: 15px;
+	background-color: #f9f9f9;
+}
+
+.first_four{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+
+}
+
+.rewiews_row_out_2{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.rewiews_row_2{
+	display: flex;
+	width: 97%;
+	justify-content: center;
+	background-color: #f9f9f9;
+}
+
+.last_four{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+	padding-bottom: 50px;
+}
+.auto2{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+#part_3{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.part_3_in{
+	background: url(Resourse_lab7/section_3/BG.png) no-repeat center top / cover;
+	height: auto;
+	width: 97%;
+
+}
+
+.title_1{
+	padding-top: 180px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: #ffffff;
+	padding-bottom: 60px;
+}
+
+
+.title_2,
+.title_3,
+.title_4{
+	padding-top: 30px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: #ffffff;
+}
+
+.title_5{
+	padding-top: 40px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: #ffffff;
+	padding-bottom: 165px;
+}
+
+.footer_1{
+	padding-top: 50px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: #bdbdbd;
+}
+
+p2{
+	font-size: 20pt;
+}
+
+.footer_2{
+	padding-top: 20px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: #bdbdbd;
+	padding-bottom: 50px;
+}
+
+/*---------Надписи відгуків--------------*/
+.stars_4,
+.stars_2,
+.stars_3{
+	display: flex;
+}
+
+.stars_name,
+.price_day{
+	display: flex;
+	flex-direction: column;
+}
+
+.pidpus_1,
+.pidpus_2,
+.pidpus_3,
+.pidpus_4{
+	display: flex;
+	width:100%;
+	justify-content: center;
+}
+
+.pic_1_in,
+.pic_2_in,
+.pic_3_in,
+.pic_4_in{
+	display: flex;
+	justify-content: space-between;
+	width: 75%
+}
+
+.photo_1,
+.photo_2,
+.photo_3,
+.photo_4{
+	display:inline-block;   
+    position:relative;
+}
+
+.photo_1 .pidpus_1,
+.photo_2 .pidpus_2,
+.photo_3 .pidpus_3,
+.photo_4 .pidpus_4{
+	display: inline-block; 
+    position: absolute; 
+    bottom: 70px; left: 30px; 
+    padding: 5px 5px 5px 10px;
+    color: #697899;
+}
+
+.name{
+	color: #697899;
+}
+
+.day{
+	font-size: 10pt;
+	color: #dad6d6;
+}
+
+.stars_4,
+.stars_2,
+.stars_3{
+	padding-top: 10px;
+}
+
+.star_enter{
+	padding-right:5px;
+}
+
+.price{
+	font-size: 20pt;
+	color: color: #697899;
+}
+
+.day{
+	padding-left: 5px;
+}
+
+.photo_1 .button,
+.photo_2 .button,
+.photo_3 .button,
+.photo_4 .button{
+	display: inline-block; 
+    position: absolute; 
+    bottom: 15px; left: 30%; 
+    padding: 5px 5px 5px 10px;
+    color: #017dfb;
+    background:linear-gradient(to top,#ffffff ,#ffffff);
+	border:3px solid #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 0 5px grey;
+}
+
+.heigth_between_rows{
+	padding-bottom: 15px;
+}
+
+p7{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.view_all{
+	display: flex;
+	justify-content: center;
+	width: 100%
+	color: #c5c5c5;
+	padding-bottom: 20px;
+}
+.view_in{
+	display: flex;
+	width: 97%;
+	justify-content: center;
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+}
+
+.view_all_in{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border:1.5px solid #c5c5c5;
+	border-radius: 20px;
+	color: #c5c5c5;
+}
+
+#top{
+	position: fixed;
+	right: -1px;
+	bottom: 5px;
+}
